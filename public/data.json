@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "World Education Summit",
+        "image": "https://i.ibb.co/C81c0CL/WES-2024-1.png",
+        "category": "training",
+        "description": "The 18-21 March 2024 are set to be the biggest days in the educational calendar, when across 4 live days and 12 dynamic stages, 400+ speakers and tens of thousands of educators will be coming together to share, discuss, and inspire learning across the world. Access world class speakers, empowering sessions and provoking panels to be inspired by the world’s top experts with proven strategies for the whole school. Explore the sessions you missed and unpack and share the wealth of knowledge content and new ideas discovered. Align themes to your learning goals and use or 5 Big Resources to help you implement and measure impact.",
+        "price": 100.00
+    },
+    {
+        "id": 2,
+        "title": "ACE2023",
+        "image": "https://i.ibb.co/BG2rgZf/ACE-23-Event-banner-Bold.png",
+        "category": "education",
+        "description": "ACE welcomed hundreds of leaders to ACE's Annual Meeting in Washington, DC to to learn the latest about nearly every facet of higher education, including the issues college leaders are facing now, the strategies that are getting results today, and the challenges that may be encountered in the future.ACE2023 will bring leaders together who are committed to building higher education’s future, designing solutions, sharing insights, and discovering sustainable strategies that will move their institutions forward. Thought-provoking content, inspiring plenaries, and new connection opportunities will help you become an architect of your institution's future.",
+        "price": 139.50
+    },
+    {
+        "id": 3,
+        "title": "ICST 2024",
+        "image": "https://i.ibb.co/MpxgJMf/1000x347-Design-Publications-ICST2023-0.png",
+        "category": "training",
+        "description": "The 17th IEEE International Conference on Software Testing, Verification and Validation (ICST) 2024 is intended to provide a common forum for researchers, scientists, engineers and practitioners throughout the world to present their latest research findings, ideas, developments and applications in the area of Software Testing, Verification and Validation. ICST 2024 will include keynote addresses by eminent scientists as well as special, regular, and poster sessions. All research papers will be peer-reviewed on the basis of a full-length manuscript and acceptance will be based on quality, originality, and relevance. Accepted research papers will be published in the conference proceedings with an IEEE catalog number and ISBN number. The proceedings will be submitted for publication in IEEE Xplore.",
+        "price": 99.99
+    },
+    {
+        "id": 4,
+        "title": "SXSW EDU Conference",
+        "image": "https://i.ibb.co/PZQ3W9k/24-SXSW-SEO-4.png",
+        "category": "education",
+        "description": "The SXSW Conference provides an opportunity for the global community of digital creatives to encounter cutting-edge ideas, discover new interests, and network with other professionals who share a similar appetite for forward-focused experiences.Featuring a variety of tracks that focus on the most important breakthroughs in technology, film, culture, and music, SXSW proves that the most unexpected discoveries happen when diverse topics and people come together.Experience more opportunities for discovery, networking, learning, and career-enhancing connections than ever before at SXSW 2024 from March 8-16 in Austin, TX. Register to attend and book your stay today! Subscribe to Event Updates and the Conference Community Newsletter to stay in the SX know.",
+        "price": 49.99
+    },
+    {
+        "id": 5,
+        "title": "Future Education 2024",
+        "image": "https://i.ibb.co/LpWDK4q/FOE-2023-Successfully-Concluded-scaled.jpg",
+        "category": "training",
+        "description": "Welcome to the 7th International Conference on Future Education 2024, which will take place from 11th – 12th July 2024, Bangkok, Thailand (Hybrid Platform), exploring the latest research, ideas, and solutions related to education. This conference is a unique opportunity to connect with leading educators, researchers, policymakers, and other education stakeholders from around the world. Future 2024 will bring together a wide range of research and case studies from around the world, presented in parallel sessions, with ample networking and publishing prospects. Join us at this premier conference to explore the latest trends and challenges in the field and engage with top researchers and experts. This gathering is dedicated to advancing the United Nations’ Sustainable Development Goals (SDGs), an ambitious blueprint for a more prosperous, inclusive, and sustainable world.",
+        "price": 150.00
+    },
+    {
+        "id": 6,
+        "title": "LitCon 2023",
+        "image": "https://i.ibb.co/jJypJLP/socmedia-header-about.png",
+        "category": "education",
+        "description": "LitCon: National K-8 Literacy & Reading Recovery Conference is the homecoming of leaders in childhood literacy! Attendees will be among the first to know about current research findings, critical news, and leading practices in K-8 literacy education that go beyond theory to actual practice. Engage in LitCon to tap exclusive resources and build special bonds to move childhood literacy and Reading Recovery forward.LitCon sessions focus on best instructional practices for classroom teachers, literacy coaches & specialists, building & district administrators, interventionists & teachers of Multilingual Learners,  curriculum & language arts specialists and Reading Recovery professionals.",
+        "price": 120
+    },
+    {
+        "id": 7,
+        "title": "Digital Transformation Conference",
+        "image": "https://i.ibb.co/nMz8Bny/Digital-Transformation-Leadpage-hero-image.jpg",
+        "category": "training",
+        "description": "The Digital Transformation Conference brings together those working within the many facets of digital business transformation, innovation & strategy. The event welcomes 25+ speakers from varying industries sharing their insights, best practice, lessons learned and so much more across people, technology & process elements of digital transformation and change. Through keynote presentations, panel discussions, fireside chats, workshops and networking the event will inspire and inform those seeking out digital transformation know-how and allow for great networking in a vast and complex business landscape. Join us in NYC in 2024 to hear from brilliant business leaders at the forefront of enterprise digital transformation and innovation.",
+        "price": 80.45
+    },
+    {
+        "id": 8,
+        "title": "ASCD Conference 2024",
+        "image": "https://i.ibb.co/KqJKdgk/save-the-date-banner-2-1024x335.png",
+        "category": "education",
+        "description": "The Association for Supervision & Curriculum Development (ASCD) is proud to present its Annual Conference, a 4-day national trade show and conference. Held in the vibrant city of Washington, DC, this event is set to take place on Mar 22-25, 2024 at the Walter E. Washington Convention Center. Open to trade, industry, and academic professionals, this event offers a unique opportunity to explore the latest developments in education, learning, and career.The ASCD Annual Conference provides an excellent platform for exhibitors to showcase their products and services to a wide variety of potential customers. With a focus on education, learning, and career, exhibitors can expect to engage in meaningful conversations and make meaningful connections with like-minded professionals. Attendees can also look forward to engaging in inspiring conversations and gaining valuable insights from industry leaders.",
+        "price": 200.00
+    },
+    {
+        "id": 9,
+        "title": "ICMRETL 2024",
+        "image": "https://i.ibb.co/DwH2gZ6/icmetl-2-1920x700-c.webp",
+        "category": "training",
+        "description": "The 7th International Conference on Modern Research in Education, Teaching and Learning will take place on March 27–29, 2024 in Oxford, United Kingdom. Bringing together academia, researchers, and scholars for three days of learning and networking, ICMETL 2024 is a must-attend event of the year. The program is designed to address the latest trends and common challenges in the field. Every presentation will feature unique insights into the most pressing topics, be it the role of technology in education, the cultural and geographical differences in approaches, the latest methodologies, and dozens of others. To ensure that you have a rounded experience of the event, we will complement the learning aspects of the event with social activities, including a free guided tour of Oxford – one of the most beautiful cities in the world that plays a prominent role in the world’s economy and cultural development.",
+        "price": 250.25
+    },
+    {
+        "id": 10,
+        "title": "ISTE24",
+        "image": "https://i.ibb.co/sbRTYSC/Fy1e-APa-AAMpz-Cf.jpg",
+        "category": "education",
+        "description": "The ISTE Conference & Expo is recognized globally as the most comprehensive educational technology conference in the world. For more than three decades, educators and education leaders have gathered at the ISTE conference to engage in hands-on learning, exchange ideas and network with like-minded thinkers seeking to transform learning and teaching. Choose from a wide range of educational opportunities offered by the International Society for Technology in Education (ISTE). They aim to use technology to address challenges in education and foster innovation. Their offerings include the ISTE conference, online courses, professional networks, publications, and books focused on technology in education. The ISTE conference was held virtually due to the pandemic, featuring a custom platform that allowed real-time collaboration, gamification features, and access to an extensive archive of learning experiences for six months.",
+        "price": 220.00
+    },
+    {
+        "id": 11,
+        "title": "ICEEL 2024",
+        "image": "https://i.ibb.co/Rvg0KxD/learning-global-online-learning-student-watching-lesson-online-using-laptop-education-learning-onlin.jpg",
+        "category": "training",
+        "description": "The International Research Conference is a federated organization dedicated to bringing together a significant number of diverse scholarly events for presentation within the conference program. Events will run over a span of time during the conference depending on the number and length of the presentations. With its high quality, it provides an exceptional value for students, academics and industry researchers.International Conference on Education and E-Learning aims to bring together leading academic scientists, researchers and research scholars to exchange and share their experiences and research results on all aspects of Education and E-Learning. It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in the fields of Education and E-Learning.",
+        "price": 180.30
+    },
+    {
+        "id": 12,
+        "title": "NSTA 2024",
+        "image": "https://i.ibb.co/tL898Gj/D24-logo-white-highres.png",
+        "category": "education",
+        "description": "National Science Teaching Association (NSTA) is headquartered in Arlington, Virginia. It is the largest organization in the world committed to promoting excellence and innovation in science teaching and learning for all. NSTA's current membership of 50,000 includes science teachers, science supervisors, administrators, scientists, business and industry representatives, and others involved in and committed to science education. NSTA has always been the place where teachers go for classroom resources, products, professional learning opportunities, and news that help them to connect, to collaborate, and to grow professionally.We are the largest organization in the world committed to promoting excellence and innovation in science teaching and learning for all. And we are happy to announce that the best just got better.",
+        "price": 169.00
+    }
+]
