@@ -10,6 +10,9 @@ import ErrorPage from './component/pages/ErrorPage';
 import Home from './component/pages/Home';
 import SignUp from './component/pages/SignUp';
 import SignIn from './component/pages/SignIn';
+import AllPrograms from './component/pages/AllPrograms';
+import EventDetails from './component/pages/EventDetails';
+import Dashboard from './component/pages/Dashboard';
 
 
 
@@ -30,6 +33,21 @@ const router = createBrowserRouter([
       {
         path: "/signIn",
         element: <SignIn></SignIn>
+      },
+      {
+        path: "/programs",
+        element:<AllPrograms></AllPrograms>,
+        loader:(() => fetch('/data.json'))
+      },
+      {
+        path: "/:id",
+        element: <EventDetails></EventDetails>,
+        loader: (()=> fetch('/data.json'))
+      },
+      {
+        path: "/dashboard",
+        element: <Dashboard></Dashboard>,
+        loader: (()=> fetch('/data.json'))
       }
     ]
   },

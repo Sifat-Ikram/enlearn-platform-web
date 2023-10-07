@@ -17,7 +17,7 @@ const Education = ({events}) => {
             <h1 className="text-3xl font-bold mb-5">Upcoming Educational Events</h1>
             <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2">
                 {
-                    filteredEvent.slice(0, eventLength).map(event => <Link key={event.id}>
+                    filteredEvent.slice(0, eventLength).map(event => <Link key={event.id} to={`/${event.id}`}>
                         <div className="flex flex-col justify-center w-64  border-2 border-solid rounded-t-xl">
                             <figure>
                                 <img src={event.image} alt={event.title} className="rounded-xl h-40 w-64" />

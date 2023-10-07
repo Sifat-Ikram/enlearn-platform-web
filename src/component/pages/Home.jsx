@@ -4,6 +4,7 @@ import Header from "../element/Header";
 import Navbar from "../element/Navbar";
 import { useEffect, useState } from "react";
 import Training from "../element/Training";
+import QuickLinks from "../element/QuickLinks";
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <Navbar></Navbar>
             <Banner></Banner>
             <Education events={events}></Education>
+            <QuickLinks></QuickLinks>
             <Training events={events}></Training>
         </div>
     );
