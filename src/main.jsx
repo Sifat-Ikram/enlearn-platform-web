@@ -13,6 +13,8 @@ import SignIn from './component/pages/SignIn';
 import AllPrograms from './component/pages/AllPrograms';
 import EventDetails from './component/pages/EventDetails';
 import Dashboard from './component/pages/Dashboard';
+import AuthProvider from './component/element/AuthProvider';
+import PrivateRoute from './component/element/PrivateRoute';
 
 
 
@@ -36,18 +38,18 @@ const router = createBrowserRouter([
       },
       {
         path: "/programs",
-        element:<AllPrograms></AllPrograms>,
-        loader:(() => fetch('/data.json'))
+        element: <AllPrograms></AllPrograms>,
+        loader: (() => fetch('/data.json'))
       },
       {
         path: "/:id",
-        element: <EventDetails></EventDetails>,
-        loader: (()=> fetch('/data.json'))
+        element: <PrivateRoute><EventDetails></EventDetails></PrivateRoute>,
+        loader: (() => fetch('/data.json'))
       },
       {
         path: "/dashboard",
         element: <Dashboard></Dashboard>,
-        loader: (()=> fetch('/data.json'))
+        loader: (() => fetch('/data.json'))
       }
     ]
   },
@@ -55,6 +57,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </React.StrictMode>,
 )

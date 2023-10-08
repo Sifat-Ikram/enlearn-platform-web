@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
-import { getStoredEvent } from "../element/localStorage";
 import DashboardItems from "../element/DashboardItems";
 import Header from "../element/Header";
 import Navbar from "../element/Navbar";
@@ -9,6 +8,14 @@ import Navbar from "../element/Navbar";
 const Dashboard = () => {
     const events = useLoaderData();
     const [addedEvents, setAddedEvents] = useState([]);
+
+    const getStoredEvent = () =>{
+        const storedEvent = localStorage.getItem('event-id');
+        if(storedEvent){
+            return JSON.parse(storedEvent);
+        }
+        return [];
+    }
 
     useEffect(() => {
         const storedEventId = getStoredEvent();

@@ -1,7 +1,8 @@
 import { Link, useLoaderData, useParams } from "react-router-dom";
 import Header from "../element/Header";
 import Navbar from "../element/Navbar";
-import { savedEvent } from "../element/localStorage";
+
+import swal from "sweetalert";
 
 
 const EventDetails = () => {
@@ -10,8 +11,29 @@ const EventDetails = () => {
     const idInt = parseInt(id);
     const event = events.find(event => event.id === idInt)
     const { title, image, price, description } = event;
+    
+    const getStoredEvent = () =>{
+        const storedEvent = localStorage.getItem('event-id');
+        if(storedEvent){
+            return JSON.parse(storedEvent);
+        }
+        return [];
+    }
 
     const handleAdd = () =>{
+        const savedEvent = id =>{
+            const storedEvent = getStoredEvent();
+            const exist = storedEvent.find(eventId => eventId === id);
+            if(!exist){
+                storedEvent.push(id);
+                localStorage.setItem('event-id', JSON.stringify(storedEvent));
+                swal("Good job!", "Your have added this item successfully", "success");
+            }
+            else{
+                swal("Oops!", "This item is already selected. Try another one", "error");
+            }
+        }
+
         savedEvent(idInt);
     }
     return (
