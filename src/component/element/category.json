@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Workshops and Webinars",
+        "price": 1304,
+        "description" : "",
+        "background_image": "https://i.ibb.co/YRymdtm/Digital-Marketing-Workshops-and-Webinars2-scaled.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Career Fairs",
+        "price": 2250,
+        "description" : "",
+        "background_image": "https://i.ibb.co/x82vHrH/image-7-png-width-1646-name-image-7.png"
+      },
+      {
+        "id": 3,
+        "title": "Educational Conferences",
+        "price": 1410,
+        "description" : "",
+        "background_image": "https://i.ibb.co/x5Jk347/education-conferences-apbs.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Training Programs",
+        "price": 2650,
+        "description" : "",
+        "background_image": "https://i.ibb.co/kyVtW0c/images-q-tbn-ANd9-Gc-Q5m0-Rc-CEpk-V8-RM1e-ZKDQ8x-G-a-SVLFi-Xdsicw-usqp-CAU.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Carnivals and Fairs",
+        "price": 4050,
+        "description" : "",
+        "background_image": "https://i.ibb.co/yPpYrt4/prize-tables-for-school-fun-fairs-carnivals-orig.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Sports Events",
+        "price": 5500,
+        "description" : "",
+        "background_image": "https://i.ibb.co/DfGdDDk/aa6fb3ee3fb50e7f9ccec54fe90e21dd.jpg"
+      }
+]

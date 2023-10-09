@@ -3,42 +3,48 @@
         "id": 1,
         "title": "Workshops and Webinars",
         "price": 1304,
-        "description" : "",
+        "short_description": "Webinars are aimed at broader, larger, and typically external audiences",
+        "description" : "Webinars are aimed at broader, larger, and typically external audiences.They can be accessed by hundreds or even thousands of attendees. Workshops, on the other hand, are more intimate events that allow for a deeper dive into the material, making it difficult to cater to a large audience.Workshops are typically hands-on, allowing participants to practice what they are learning, while webinars are also typically used to promote and sell products or services related to the topic being discussed. Therefore, webinars often include a pitch at the end. Join us for organizing this events.",
         "background_image": "https://i.ibb.co/YRymdtm/Digital-Marketing-Workshops-and-Webinars2-scaled.jpg"
       },
       {
         "id": 2,
         "title": "Career Fairs",
         "price": 2250,
-        "description" : "",
+        "short_description": "In Educational Career Fairs, students can meet their dream career. ",
+        "description" : " Education Career Fair connects school administrators, superintendents, and other employers from the field of education seeking to hire candidates in education and related fields with talented students and alumni from our Reich College of Education. This fair allows a variety of education-related employers to network and discuss career options and employment opportunities with a talented pool of Appalachian State students and alumni.Career Fairs are the  most comprehensive career event. Serving students and alumni of all majors and skills, the event is host to many organizations across all industry sectors that are ready to network with students and introduce them to valuable internship and job opportunities.",
         "background_image": "https://i.ibb.co/x82vHrH/image-7-png-width-1646-name-image-7.png"
       },
       {
         "id": 3,
         "title": "Educational Conferences",
         "price": 1410,
-        "description" : "",
+        "short_description": "Through Educational conferences attendees can meet others in their fields.",
+        "description" : "Educational conferences allow attendees to interact with others in their field, network, and gain new knowledge and ideas from keynote speakers, presenters, and panel discussions. These events offer various programs and presentations covering current research, practices, and innovations in education. There are different types of educational conferences, including professional conferences, academic conferences, education 2.0 conferences, amplified conferences, and virtual conferences. In addition to presentations and sessions, educational conferences often offer opportunities for participants to showcase their work through conference papers, panel discussions, and poster presentations.",
         "background_image": "https://i.ibb.co/x5Jk347/education-conferences-apbs.jpg"
       },
       {
         "id": 4,
         "title": "Training Programs",
         "price": 2650,
-        "description" : "",
+        "short_description": "A training program is a planned sequence and combination of activities",
+        "description" : "A training program is a planned sequence and combination of activities designed to equip employees with knowledge and skills to become better professionals. Each training program is aimed at achieving specific business goals. Depending on the purpose, there may be different types of training programs. Education and training at the ground level are vital for the success of this project. The ultimate goal is to create local trainers who can build regional capacity and initiate work within local communities.",
         "background_image": "https://i.ibb.co/kyVtW0c/images-q-tbn-ANd9-Gc-Q5m0-Rc-CEpk-V8-RM1e-ZKDQ8x-G-a-SVLFi-Xdsicw-usqp-CAU.jpg"
       },
       {
         "id": 5,
         "title": "Carnivals and Fairs",
         "price": 4050,
-        "description" : "",
+        "short_description": "Carnivals and Fairs are great way to celebrate the beginning of the new year",
+        "description" : "Kicking off the school year with carnivals and Fairs is a great way to celebrate the beginning of the new school year and bring the whole community together. Festivals, Carnivals and Fairs are typically large gatherings that feature music, dancing, games, fun festival food, and other activities for people of all ages to enjoy. Carnivals and Fairs can take on many different forms depending on the school or community hosting them. Some may focus primarily on entertainment and socializing, while others prioritize more educational or competitive activities. Regardless of their specific details, carnivals and fairs are always fun events that help foster a sense of community among students, parents, teachers, administrators, and members of the local community. If you’re planning a school carnival or Fair this year, here are some tips for making it a success.",
         "background_image": "https://i.ibb.co/yPpYrt4/prize-tables-for-school-fun-fairs-carnivals-orig.jpg"
       },
       {
         "id": 6,
         "title": "Sports Events",
         "price": 5500,
-        "description" : "",
+        "short_description": "A sporting event is an exhilarating experience for all kind of people.",
+        "description" : "A sporting event is an exhilarating experience that brings together people from all walks of life to witness and participate in a display of athleticism and competition. Whether it is a football match, a tennis tournament, or a basketball game, the atmosphere is always charged with excitement, anticipation, and an undeniable sense of unity. A sporting event is more than just a competition. It is an immersive and exhilarating experience that showcases the incredible skills of athletes, creates a bond among the spectators, and unites people from all walks of life under the banner of a shared passion. It is a celebration of the human spirit and a testament to the power of unity in the face of a common goal.",
         "background_image": "https://i.ibb.co/DfGdDDk/aa6fb3ee3fb50e7f9ccec54fe90e21dd.jpg"
       }
 ]
