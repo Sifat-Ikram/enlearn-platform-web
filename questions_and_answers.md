@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>The answer will be B: ReferenceError: greetign is not defined. As "greeting" is defined but "greetign" is hot defined, the answer will be B. </i>
 
 </p>
 </details>
@@ -45,7 +45,7 @@ sum(1, "2");
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>Here the answer will be C:"12". As a is defined as integer and b is defined as string. So the answer is 12.</i>
 
 </p>
 </details>
@@ -71,7 +71,7 @@ console.log(food);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>The answer is A. Though the object "info" initialized the first element of "food" array. But here food is consoled. So "food" array remain unchanged</i>
 
 </p>
 </details>
@@ -96,7 +96,7 @@ console.log(sayHi());
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>The answer is B:"Hi there, undefined". Because here the parameter "name" is not called or defined to a specific value. So the answer is B.</i>
 
 </p>
 </details>
@@ -124,7 +124,7 @@ console.log(count);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>The answer is A:1. Here "nums" is run by forEach loop. For each value of the array, the function checks if the value of "num" is truthy. Since the only one element of the array is truthy, then the answer will be A. </i>
 
 </p>
 </details>
