@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { AuthContext } from "./AuthProvider";
 
 const Navbar = () => {
@@ -8,12 +8,14 @@ const Navbar = () => {
 
     const navLinks = <>
         <li><NavLink style={({isActive}) =>({ background: isActive ? "#3c3ff2" : "" })} className="hover:bg-[#3c3ff2] hover:text-white font-bold text-[#3c3ff2] rounded-md" to={"/"}>Home</NavLink></li>
+                <li><NavLink style={({isActive}) =>({ background: isActive ? "#3c3ff2" : "" })} className="hover:bg-[#3c3ff2] hover:text-white font-bold text-[#3c3ff2] rounded-md" to={"/programs"}>Events</NavLink></li>
         {
             user && <>
-                <li><NavLink style={({isActive}) =>({ background: isActive ? "#3c3ff2" : "" })} className="hover:bg-[#3c3ff2] hover:text-white font-bold text-[#3c3ff2] rounded-md" to={"/programs"}>Events</NavLink></li>
-                <li><NavLink style={({isActive}) =>({ background: isActive ? "#3c3ff2" : "" })} className="hover:bg-[#3c3ff2] hover:text-white font-bold text-[#3c3ff2] rounded-md" to={"/dashboard"}>Dashboard</NavLink></li>
+            <li><NavLink style={({isActive}) =>({ background: isActive ? "#3c3ff2" : "" })} className="hover:bg-[#3c3ff2] hover:text-white font-bold text-[#3c3ff2] rounded-md" to={"/dashboard"}>Dashboard</NavLink></li>
+                <li><NavLink style={({isActive}) =>({ background: isActive ? "#3c3ff2" : "" })} className="hover:bg-[#3c3ff2] hover:text-white font-bold text-[#3c3ff2] rounded-md" to={"/about"}>About Us</NavLink></li>
             </>
         }
+        
         <li><NavLink style={({isActive}) =>({ background: isActive ? "#3c3ff2" : "" })} className="hover:bg-[#3c3ff2] hover:text-white font-bold text-[#3c3ff2] rounded-md" to={"/signUp"}>Sing up</NavLink></li>
     </>
 

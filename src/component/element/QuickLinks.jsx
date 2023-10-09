@@ -12,27 +12,21 @@ const QuickLinks = () => {
     return (
         <div>
             <div className="flex flex-col justify-center items-center mx-auto">
-                <h1 className="text-3xl font-bold mb-5">Featured Quick Links</h1>
-                <div className=" flex" data-aos="fade-right">
-                    <Link to={"/dashboard"}>
-                        <div className="w-40 h-40 px-5 border-2 border-solid flex flex-col justify-center items-center">
-                            <BiSolidDashboard className="text-7xl text-[#3c3ff2]"></BiSolidDashboard>
-                            <h1 className="text-lg font-medium">Dashboard</h1>
-                        </div>
-                    </Link>
-                    <Link to={"/programs"}>
+                <h1 className="text-3xl font-bold mb-5">Featured</h1>
+                <div className="flex gap-5">
+                    <Link to={"/programs"} data-aos="fade-right">
                         <div className="w-40 h-40 px-5 border-2 border-solid flex flex-col justify-center items-center">
                             <BiSolidCalendarEvent className="text-7xl text-[#3c3ff2]"></BiSolidCalendarEvent>
                             <h1 className="text-lg font-medium">Events</h1>
                         </div>
                     </Link>
-                    <Link>
+                    <Link data-aos="fade-bottom">
                         <div className="w-40 h-40 px-5 border-2 border-solid flex flex-col justify-center items-center">
                             <BiSolidContact className="text-7xl text-[#3c3ff2]"></BiSolidContact>
                             <h1 className="text-lg font-medium">Contact Us</h1>
                         </div>
                     </Link>
-                    <Link to={"/signUp"}>
+                    <Link to={"/signUp"}  data-aos="fade-left">
                         <div className="w-40 h-40 px-5 border-2 border-solid flex flex-col justify-center items-center">
                             <FaSignInAlt className="text-7xl text-[#3c3ff2]"></FaSignInAlt>
                             <h1 className="text-lg font-medium">Sign up</h1>

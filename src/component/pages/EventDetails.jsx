@@ -10,7 +10,7 @@ const EventDetails = () => {
     const { id } = useParams();
     const idInt = parseInt(id);
     const event = events.find(event => event.id === idInt)
-    const { title, image, price, description } = event;
+    const { title, background_image, price, description } = event;
     
     const getStoredEvent = () =>{
         const storedEvent = localStorage.getItem('event-id');
@@ -44,7 +44,7 @@ const EventDetails = () => {
                 <h1 className="text-4xl font-semibold text-left mb-10">Program Details</h1>
                 <div>
                     <div className="flex justify-center items-center">
-                        <img src={image} alt="" className=" w-9/12 mb-10" />
+                        <img src={background_image} alt="" className=" w-9/12 mb-10" />
                     </div>
                     <div className="text-left">
                         <div className="flex justify-between">

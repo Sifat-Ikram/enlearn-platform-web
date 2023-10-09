@@ -15,6 +15,7 @@ import EventDetails from './component/pages/EventDetails';
 import Dashboard from './component/pages/Dashboard';
 import AuthProvider from './component/element/AuthProvider';
 import PrivateRoute from './component/element/PrivateRoute';
+import About from './component/pages/About';
 
 
 
@@ -44,12 +45,16 @@ const router = createBrowserRouter([
       {
         path: "/:id",
         element: <PrivateRoute><EventDetails></EventDetails></PrivateRoute>,
-        loader: (() => fetch('/data.json'))
+        loader: (() => fetch('/category.json'))
       },
       {
         path: "/dashboard",
         element: <Dashboard></Dashboard>,
         loader: (() => fetch('/data.json'))
+      },
+      {
+        path: "/about",
+        element: <About></About>
       }
     ]
   },

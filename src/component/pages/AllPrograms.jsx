@@ -11,12 +11,12 @@ const AllPrograms = () => {
             <Navbar></Navbar>
             <div>
                 <h1 className="text-3xl font-semibold text-left mb-10">All Programs</h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                     {
                         programs.map(cards => <Link key={cards.id} to={`/${cards.id}`}>
-                            <div className="flex flex-col justify-center w-72  border-2 border-solid rounded-xl">
+                            <div className="flex flex-col justify-center  border-2 border-solid rounded-xl">
                                 <figure>
-                                    <img src={cards.image} alt={cards.title} className="rounded-xl h-44 w-72" />
+                                    <img src={cards.image} alt={cards.title} className="rounded-xl h-52 w-full" />
                                 </figure>
                                 <div className="items-center text-center space-y-2">
                                     <h2 className="text-lg text-black font-medium">{cards.title}</h2>
