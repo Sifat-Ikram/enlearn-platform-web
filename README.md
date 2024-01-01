@@ -1,6 +1,6 @@
 website name: Enlearn Platform
 
-Live link:
+Live link: https://enlearn-platform-web.web.app
 
 Features:
 1. This website is a educational event management website.
