@@ -16,7 +16,7 @@ const Header = () => {
 
     return (
         <div className="flex justify-between">
-            <a href="/"><h1 className="text-5xl font-roboto font-bold text-[#0205B1]">Dreamz Events</h1></a>
+            <a href="/"><h1 className="text-5xl font-roboto font-bold text-[#0205B1]">Enlearn Platform</h1></a>
             
                 {
                     user ?
